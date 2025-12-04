@@ -1,0 +1,45 @@
+const a=3
+const b=4
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b);
+console.log(a**b);
+
+x="abc"
+y="efg"
+console.log(x+y);
+console.log(x-y);
+console.log(x*y);
+console.log(x/y);
+console.log(x%y);
+console.log(x**y);
+
+c=3
+d=Infinity
+console.log(c+d);
+console.log(c-d);
+console.log(c*d);
+console.log(c/d);
+console.log(c%d);
+console.log(c**d);
+
+console.log(Infinity+Infinity);
+console.log(Infinity*0);
+console.log(2/0);
+console.log(2/-0);
+
+//unary operators
+let z=-"2"
+let h=-2
+let e=+false
+let i=+"false"
+let f=+true
+let g=+"3"
+console.log(z);
+console.log(h);
+console.log(e);
+console.log(i);
+console.log(f);
+console.log(g);
